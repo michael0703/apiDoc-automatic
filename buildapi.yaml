@@ -1,0 +1,12 @@
+steps:
+- name: 'docker.io/library/python:3.7'
+  entrypoint: /bin/sh
+  args: [-c, 'pip install -r requirements.txt']
+  dir: './'
+- name: 'build API DOC configuration'
+  args: ['bash', 'buildapi.sh']
+
+artifacts:
+  objects:
+    location: 'gs://apidoc_test/'
+    paths: ['./doc/build/*.html']
