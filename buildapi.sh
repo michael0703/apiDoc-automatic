@@ -1,7 +1,7 @@
 rm -rf doc
 mkdir doc
 cd doc
-sphinx-quickstart -q -p api_test -a michael -v 3.7 --ext-autodoc --ext-doctest --ext-intersphinx --ext-todo --ext-coverage --ext-mathjax --sep --extensions=sphinx.ext.napoleon,sphinx.ext.autosummary
+sphinx-quickstart -q -p api_test -a michael -v 3.7 --ext-autodoc --ext-doctest --ext-intersphinx --ext-todo --ext-coverage --ext-mathjax --sep --extensions=sphinx.ext.napoleon,sphinx.ext.autosummary,sphinxcontrib.httpdomain
 # echo "import os" >> source/conf.py
 # echo "import sys" >> source/conf.py
 # echo "autosummary_generate = True" >> source/conf.py
