@@ -7,6 +7,6 @@ sphinx-quickstart -q -p api_test -a michael -v 3.7 --ext-autodoc --ext-doctest -
 # echo "autosummary_generate = True" >> source/conf.py
 # echo "autoclass_content = 'both'" >> source/conf.py
 # echo "sys.path.insert(0, os.path.abspath('../../src'))" >> source/conf.py
-cp conftemplate.py ./doc/source/conf.py
+cp ../conftemplate.py ./source/conf.py
 sphinx-apidoc -o ./source ../src/
 make clean && make html
