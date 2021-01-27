@@ -6,4 +6,4 @@ steps:
 artifacts:
   objects:
     location: 'gs://apidoc_test/'
-    paths: ['./doc/build/*.html']
+    paths: ['./doc/build/html/*.html']
