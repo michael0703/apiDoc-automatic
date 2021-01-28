@@ -48,6 +48,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.autosummary',
     'sphinxcontrib.httpdomain',
+    'sphinxcontrib.autohttp.flask',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -197,4 +198,8 @@ import os
 import sys
 autosummary_generate = True
 autoclass_content = 'both'
+sys.path.insert(0, os.path.abspath('../../'))
 sys.path.insert(0, os.path.abspath('../../src'))
+
+
+# -- use markdown

@@ -1,7 +1,7 @@
 steps:
-- name: 'docker.io/library/python:3.7'
+- name: 'gcr.io/best-life/sphinx'
   entrypoint: /bin/sh
-  args: [-c, 'pip install -r requirements.txt && bash buildapi.sh']
+  args: [-c, 'bash buildapi.sh']
 
 artifacts:
   objects:

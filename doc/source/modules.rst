@@ -1,10 +1,8 @@
-src
-===
+apidoc_test
+===========
 
 .. toctree::
    :maxdepth: 4
 
-   add_tool
-   main
-   mul
-   subdir1
+   conftemplate
+   testoutside
