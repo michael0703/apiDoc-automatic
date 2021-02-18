@@ -49,6 +49,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinxcontrib.httpdomain',
     'sphinxcontrib.autohttp.flask',
+    'sphinx_markdown_builder'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

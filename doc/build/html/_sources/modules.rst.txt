@@ -5,4 +5,5 @@ apidoc_test
    :maxdepth: 4
 
    conftemplate
+   src
    testoutside

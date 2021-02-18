@@ -10,4 +10,4 @@ sphinx-quickstart -q -p api_test -a michael -v 3.7 --ext-autodoc --ext-doctest -
 cp ../conftemplate.py ./source/conf.py
 cp ../makefile_template ./Makefile
 sphinx-apidoc -o ./source ../
-make clean && make html
+make clean && make html && make markdown
